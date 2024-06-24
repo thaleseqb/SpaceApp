@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import Input from "../../TextFiled";
 
 const StyledHeader = styled.header`
     padding: 60px 0;
@@ -13,6 +14,7 @@ const Header = () => {
     return (
         <StyledHeader>
             <img src="/imagens/logo.png" alt="" />
+            <Input placeholder="O que você deseja aprender" />
         </StyledHeader>
     )
 }
